@@ -1,4 +1,6 @@
 .nav {
+    top: 0;
+    left: 0;
     position: fixed;
     width: 100px;
     height: 100vh;
@@ -43,7 +45,7 @@
 }
 
 .menu__item:nth-child(3) .menu__link {
-    font-size: 45px;
+    font-size: 46px;
 }
 
 .menu__item:nth-child(4) .menu__link {
@@ -51,11 +53,8 @@
 }
 
 .link__span {
-    font-family: 'Rubik';
+    font-family: 'RR', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0em;
-    text-align: center;
-
 }
